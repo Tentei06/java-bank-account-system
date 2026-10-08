@@ -1,9 +1,9 @@
 public class BankAccount
 {
-    String firstName;
-    String lastName;
-    int accountID;
-    double balance;
+    private String firstName;
+    private String lastName;
+    private int accountID;
+    protected double balance;
 
     public BankAccount()
     {
